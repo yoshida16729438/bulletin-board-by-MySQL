@@ -103,7 +103,7 @@ try{
 	if (isset($_SESSION["comnum"]))$val3=$_SESSION["comnum"];
 ?>
 	
-	<form action="mission_2-15.php" method="post" />
+	<form action="mysqlbulletin.php" method="post" />
 	<p><label>名前:<input type="text" name="name" size=10 value="<?php echo $val1; ?>" /></label> <!--名前-->
 	&nbsp;&nbsp;&nbsp;
 	
